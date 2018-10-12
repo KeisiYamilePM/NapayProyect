@@ -4,16 +4,16 @@ body {
 	font: 87.5%/1.5em 'Open Sans', sans-serif;
 }
 
-img{
+#logo{
 	border-color : #F5F3F2;
 	margin : 0px 0px 0px 0px;  
 }
 #contenedor{ 
-	width: 720px; 
-	height : 540px; 
+	width: 650px; 
+	height : 500px; 
 	margin : 0px 15px 0px 24px; 
 	background-color : #F5F3F2; 
-
+  padding: 20px 30px;
 }
 #search-bar-content{
 	width: 720px; 
@@ -28,6 +28,7 @@ img{
 	margin : 0px 15px 10px 20px; 
 	background-color : #F5F3F2; 
 }
+
 /*vertical-menu*/
 
 .vertical-menu {
@@ -59,29 +60,30 @@ img{
 #details-content{ 
 	width: 300px; 
 	height : 540px; 
-	margin : 0px 15px 0px 20px; 
+	margin : 0px 50px 0px 20px; 
 	background-color : #F5F3F2; 
 }
 
-.icon-bar {
-    width: 100%; /* Full-width */
-    overflow: auto; /* Overflow due to float */
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
 }
 
-.icon-bar a {
-    float: left; /* Float links side by side */
-    text-align: center; /* Center-align text */
-    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
-    padding: 12px 0; /* Some top and bottom padding */
-    transition: all 0.3s ease; /* Add transition for hover effects */
-    color: #555; /* White text color */
-    font-size: 36px; /* Increased font size */
+div.img:hover {
+    border: 1px solid #777;
 }
 
-.icon-bar a:hover {
-    color: #000; /* Add a hover color */
+div.img img {
+    width: 100%;
+    height: auto;
 }
 
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
 
 /*search-bar*/
 
